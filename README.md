@@ -12,7 +12,7 @@ Kim R., Li Y., & Sejnowski TJ. Simple Framework for Constructing Functional Spik
 The code for constructing and training **continuous-variable rate recurrent neural network (RNN) models** is implemented in Python (tested in Python 3.6.9). The code also requires TensorFlow (tested in TensorFlow 1.5.0 and 1.10.0). 
 
 - tesnorflow 1.5.0 or 1.10.0
-- tensorflow-gpu 1.5.0i or 1.10.0 (if a GPU card is available, this can speed up training time for large models)
+- tensorflow-gpu 1.5.0 or 1.10.0 (if a GPU card is available, this can speed up training time for large models)
 - numpy 1.16.4
 - scipy 1.3.1
 
