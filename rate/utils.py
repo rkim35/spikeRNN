@@ -57,26 +57,6 @@ def str2bool(v):
     else:
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
-def return_total_time(stim_params):
-    """
-    Helper function to return the total number of time-points in a single trial
-
-    INPUT
-        stim_params: dictionary containig the following keys
-            base_fix: beginning fixation duration (in ms)
-            cue: cue duration (in ms)
-            isi: inter-stimulus interval (in ms)
-            probe: probe duration (in ms)
-            response: response window duration (in ms)
-            cue_alt: number of alternative cue stimuli (i.e. number of B's)
-            probe_alt: number of alternative probe stimuli (i.e. number of Y's)
-    OUTPUT
-        T: total number of time-points 
-    """
-    T = stim_params['base_fix'] + stim_params['cue'] + stim_params['isi'] + \
-            stim_params['probe'] + stim_params['response']
-    return T
-
 
 
 
