@@ -64,4 +64,19 @@ Given a trained rate model, the first step is to perform the grid search to dete
 
 An example script for evaluating a Go-NoGo LIF network (`eval_go_nogo.m`) is also included. The script constructs a LIF RNN constructed to perform the Go-NoGo task and plots network responses. The script can be modified to evaluate models trained to perform other tasks.
 
+## Citation
+If you use this repo for your research, please cite our work:
+
+```
+@article{Kim_2019,
+  Author = {Kim, Robert and Li, Yinghao and Sejnowski, Terrence J.},
+  Doi = {10.1101/579706},
+  Elocation-Id = {579706},
+  Eprint = {https://www.biorxiv.org/content/early/2019/03/15/579706.full.pdf},
+  Journal = {bioRxiv},
+  Publisher = {Cold Spring Harbor Laboratory},
+  Title = {Simple Framework for Constructing Functional Spiking Recurrent Neural Networks},
+  Url = {https://www.biorxiv.org/content/early/2019/03/15/579706},
+  Year = {2019}}
+```
 
