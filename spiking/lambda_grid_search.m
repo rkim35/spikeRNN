@@ -24,7 +24,6 @@
 %   This value is appended to the model mat file.
 
 clear; clc;
-addpath('/cnl/chaos/ROBERT/spiking_working_memory/code/RK_TF_RNN');
 
 % Directory containing all the trained rate RNN model .mat files
 model_dir = '../models/go-nogo/P_rec_0.2_Taus_4.0_20.0';

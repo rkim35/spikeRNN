@@ -9,7 +9,8 @@ clear; clc;
 
 % First, load one trained rate RNN
 % Make sure lambda_grid_search.m was performed on the model.
-model_path = '/cnl/chaos/ROBERT/tmp/models/go-nogo/P_rec_0.2_Taus_4.0_20.0';
+% Update model_path to point where the trained model is
+model_path = '../models/go-nogo/P_rec_0.2_Taus_4.0_20.0'; 
 mat_file = dir(fullfile(model_path, '*.mat'));
 model_name = mat_file(1).name;
 model_path = fullfile(model_path, model_name);

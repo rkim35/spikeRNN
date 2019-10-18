@@ -62,7 +62,7 @@ Task_<Task Name>_N_<N>_Taus_<min_tau>_<max_tau>_Act_<act>_<YYYY_MM_DD_TIME>.mat
 Trained rate RNNs are used to construct LIF RNNs. The mapping and LIF simulations are performed in MATLAB.
 Given a trained rate model, the first step is to perform the grid search to determine the optimal scaling factor (lambda). This is done by `lambdad_grid_search.m`. Once the optimal scaling factor is determined, a LIF RNN can be constructed using the function `LIF_network_fnc.m`. All the required functions/scripts are located in `spiking/`.
 
-An example script for evaluating a Go-NoGo LIF network (`eval_go_nogo.m`) is also included. The script constructs a LIF RNN constructed to perform the Go-NoGo task and plots network responses. The script can be modified to evaluate models trained to perform other tasks.
+An example script for evaluating a Go-NoGo LIF network (`eval_go_nogo.m`) is also included. The script constructs a LIF RNN trained to perform the Go-NoGo task and plots network responses. The script can be modified to evaluate models trained to perform other tasks.
 
 ## Citation
 If you use this repo for your research, please cite our work:
