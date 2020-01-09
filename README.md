@@ -2,9 +2,11 @@
 
 ## Overview
 
-This repository provides the code for the framework presented in [this paper](https://www.biorxiv.org/content/10.1101/579706v2):
+This repository provides the code for the framework presented in [this paper](https://www.pnas.org/content/116/45/22811):
 
-Kim R., Li Y., & Sejnowski TJ. Simple Framework for Constructing Functional Spiking Recurrent Neural Networks. Preprint at BioRxiv https://www.biorxiv.org/content/10.1101/579706v2 (2019).
+Kim R., Li Y., & Sejnowski TJ. Simple Framework for Constructing Functional Spiking Recurrent Neural Networks. Proceedings of the National Academy of Sciences. 116: 22811-22820 (2019).
+
+Preprint available [here](https://www.biorxiv.org/content/10.1101/579706v2).
 
 ## Requirements
 
@@ -69,14 +71,14 @@ If you use this repo for your research, please cite our work:
 
 ```
 @article{Kim_2019,
-  Author = {Kim, Robert and Li, Yinghao and Sejnowski, Terrence J.},
-  Doi = {10.1101/579706},
-  Elocation-Id = {579706},
-  Eprint = {https://www.biorxiv.org/content/early/2019/03/15/579706.full.pdf},
-  Journal = {bioRxiv},
-  Publisher = {Cold Spring Harbor Laboratory},
-  Title = {Simple Framework for Constructing Functional Spiking Recurrent Neural Networks},
-  Url = {https://www.biorxiv.org/content/early/2019/03/15/579706},
-  Year = {2019}}
+    Author = {Kim, Robert and Li, Yinghao and Sejnowski, Terrence J.},
+    Doi = {10.1073/pnas.1905926116},
+    Journal = {Proceedings of the National Academy of Sciences},
+    Number = {45},
+    Pages = {22811--22820},
+    Publisher = {National Academy of Sciences},
+    Title = {Simple framework for constructing functional spiking recurrent neural networks},
+    Volume = {116},
+    Year = {2019}}
 ```
 
