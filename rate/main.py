@@ -13,11 +13,11 @@
 
 import os, sys
 import time
+import scipy.io
 import numpy as np
 import tensorflow as tf
 import argparse
 import datetime
-import scipy.io
 
 # Import utility functions
 from utils import set_gpu
