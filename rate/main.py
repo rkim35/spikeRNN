@@ -378,10 +378,10 @@ if args.mode.lower() == 'train':
         var['activation'] = training_params['activation']
         fname_time = datetime.datetime.now().strftime("%Y_%m_%d_%H%M%S")
         if len(settings['taus']) > 1:
-            fname = 'Task_{}_N_{}_Taus_{}_{}_Act_{}_{}'.format(args.task.lower(), N, settings['taus'][0], 
+            fname = 'Task_{}_N_{}_Taus_{}_{}_Act_{}_{}.mat'.format(args.task.lower(), N, settings['taus'][0], 
                     settings['taus'][1], training_params['activation'], fname_time)
         elif len(settings['taus']) == 1:
-            fname = 'Task_{}_N_{}_Tau_{}_Act_{}_{}'.format(args.task.lower(), N, settings['taus'][0], 
+            fname = 'Task_{}_N_{}_Tau_{}_Act_{}_{}.mat'.format(args.task.lower(), N, settings['taus'][0], 
                     training_params['activation'], fname_time)
         scipy.io.savemat(os.path.join(out_dir, fname), var)
 
